@@ -11,6 +11,7 @@ We will mark down these inconsitency's and mistakes in the LLMs responses throug
 
 Step 1:
 Sunday 11/17/24
+Create criteria/rubric for LLM responses. 
 Hand pick questions from our array of homeworks and choose our subset of LLMs. Begin base testing stage with questions (no prompting). Additionally, base testing for questions will be done individually, so the results of a prior question cannot influence the results of ones following it. Analyze and compare results between LLMs. 
 
 Step 2:
