@@ -18,4 +18,9 @@ Testing LLMs with the same set of questions. This time we will feed the LLMs rap
 
 Step 4:
 TBD
-Testing LLMs with the same set of questions. 
+Testing LLMs with the same questions, but focusing on a subset of equation reasoning and induction proofs. Test multiple different prompt strategies. Initial strategy will just be the ALC2s prompt format. Then improvise professional method and ask the LLMs to do "paper and pencil" proofs. Analyze and compare results. 
+
+Step 5:
+TBD
+Repeat Step 4 in pseudocode, multiple different langauges? Compare between step 5 and step 4 results. Decide what is best, and if its effective.
+
