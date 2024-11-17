@@ -1,0 +1,49 @@
+- Coverage-based Testing? - When given simple function definitions, can it define tests for it. 
+- Property-based Testing - When given simple function definitions, can it define interesting/valid properties for it. 
+		- The above two can probably be checked on function-definition questions on all of the ones below. 
+- HW2
+	- Define rl recursively.
+	- Efficient rl ; using match?
+	- N-to-bv
+	- Bv-to-n
+	- Q12 - find-arrangement
+	- Q13 - apply-arrangement
+- HW3
+	- Q5 → Arithmetic Compiler/Evaluator
+- HW4
+	- Part-1 (3 Questions on Propositional Logic
+	- Part-2 → Cryptography
+		- Q2 - next-bv
+		- Q4 - generate-bit-vectors-aux
+		- Q5 - n-copies
+		- Q6 - generate-bit-vectors	
+		- Q7 - list-zip
+		- Q8 - find-car
+		- Q9 - find-cdr
+		- Q10 - char->bv5 & bv5 -> char
+		- Q11 - xorbv
+		- Q12 - encrypt-char
+		- Q13 - encrypt
+		- Q14 - decrypt-char
+		- Q15 - decrypt
+		- Q19 - game-over
+		- Q21
+- HW5 (All Questions make one big question on boolean/propositional logic simplification) - Can it do the extra credit on Shannon Decomposition?
+- HW6 (DO ALL 6 PROOFS) → Equational Reasoning
+- HW7 (M0 - M7) → Termination + Measure Functions
+- HW8
+	- Q1 - Disprove using Cantor’s Theorem
+	- Q2 - Bijection between lex<->nat 
+	- Q5&6 - mc == ac
+- HW10 → Induction? 
+	- In-ap1
+	- In-ap2
+	- In-rv
+	- In-rem-dups-helper
+	- In-rem-dups
+	- Sanity-check → Equational Reasoning
+	- In-make-n-xs
+	- Find closed forms (r1-r4)
+	- Proving r1-r4 using Induction
+- HW11 (qsort == isort) → Professional Method? 
+
