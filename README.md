@@ -36,3 +36,5 @@ Compile results and analysis. Categorize results based on our criteria created i
 
 Possibly train LLaMa and do that. 
 
+++ do exploratory analysis using python. We will be compiling our rubric results per question per LLM in an excel sheet.
+
