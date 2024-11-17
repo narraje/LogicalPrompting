@@ -1,0 +1,58 @@
+Our structured rubric for analyzing LLM responses.
+
+1. Accuracy
+  -Correctness of Final Answer (0-5):
+    -5: Completely correct answer with accurate reasoning and no errors.
+    -4: Correct answer but contains minor errors or ambiguities in reasoning
+    -3: Partially correct answer, significant reasoning gaps or incorrect steps, but the conclusion is close. 
+    -2: Major flaws in reasoning or incorrect results, though some relevance context is present.
+    -1: Substantial misunderstanding of question or completely incorrect.
+    -0: Irrelevant, hallucinates response, or nonsensical.
+
+    1.1. Completeness
+        -Thoroughness of Response (0-5):
+          -5: Fully addresses all aspects of question.
+          -4: Addresses most aspects but omits minor points.
+          -3: Misses key parts of the question or lacks explanation.
+          -2: Barely addresses question.
+          -1: Minimal effort.
+          -0: no attempt.
+
+2. Logical Soundess (For equational reasoning and induction)
+  -Validity of reasoning steps (0-5):
+    -5: All steps follow logically and align with formal reasoning principles.
+    -4: Steps are mostly logical but skip minor details.
+    -3: Includes logical errors or leaps that break formal reasoning, but retains a certain degree of intent.
+    -2: Various flaws, incomplete or inconsistent reasoning.
+    -1: Reasoning contradicts itself or is invalid. 
+    -0: Response lacks any logical structure (proof format?)
+
+3. ACL2s-Specific Adherence (note any hallucinations relevant to Lisp)
+  -Compliance with ACL2s standards (0-5):
+    -5: Response adheres perfectly to ACL2s syntax and conventions.
+    -4: Minor deviations from ACL2s conventions but valid approach in code.
+    -3: Partial adherence, with significant syntax or semantics issues.
+    -2: Various syntax/semantic issues, unexecutable.
+    -1: Response misunderstands ALC2s conventions or misuses them entirely.
+    -0: No attempt.
+
+4. Efficiency
+  -Efficiency in Solving the Problem (0-5):
+    -5: Concise and efficient approach with no unnecessary steps.
+    -4: Slightly verbose or redundant but mantains clarity.
+    -3: Includes unecessary steps that slow down the response (thinking).
+    -2: Significantly overcomplicated.
+    -1: Meandering response with no clear direction.
+    -0: Unable to solve.
+
+5. Hullucinations and Relevance
+  - Avoidance of Hallucinations/Irrelevant Information (0-5):
+    -5: Fully focused on the task, with no irrelevant or invented details.
+    -4: Minor irrelevant details, but they don't detract significantly from the answer.
+    -3: Includes irrelevant information that distracts or confuses.
+    -2: Frequent hallucinations or fabrications that undermine response.
+    -1: Almost entirely jibberish.
+    -0: Jibberish
+
+
+
